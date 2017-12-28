@@ -1,6 +1,17 @@
 # Visual Code Settings
 
-## Setup
+## Files
+
+* [settings.json][./settings.json.md] ([src][./settings.json])
+
+## Background
+
+The `json` file is for the editor, the markdown file is for the human,
+the two are kept in sync w/ [there-and-back-again].
+
+[there-and-back-again]: https://github.com/jedcn/there-and-back-again
+
+### Setup
 
 I took the following steps to get going--
 

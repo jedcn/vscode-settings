@@ -1,3 +1,8 @@
+// settings.json
 {
-  "files.autoSave": "onFocusChange"
+  // Saving
+  "files.autoSave": "onFocusChange",
+  // Color Theme
+  "workbench.colorTheme": "Quiet Light"
+// There's nothing left to see..
 }

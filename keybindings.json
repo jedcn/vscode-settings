@@ -1,0 +1,8 @@
+// keybindings.json
+[
+    // CMD+Q
+    {
+        "key": "cmd+q", "command": "rewrap.rewrapComment"
+    }
+// The Great Beyond
+]

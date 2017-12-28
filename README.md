@@ -2,7 +2,7 @@
 
 ## Files
 
-* [settings.json][./settings.json.md] ([src][./settings.json])
+* [settings.json](./settings.json.md) ([src](./settings.json]))
 
 ## Background
 

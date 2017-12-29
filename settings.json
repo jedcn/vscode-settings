@@ -3,6 +3,8 @@
   // Saving
   "files.autoSave": "onFocusChange",
   // Color Theme
-  "workbench.colorTheme": "Quiet Light"
+  "workbench.colorTheme": "Quiet Light",
+  // Window Zoom
+  "window.zoomLevel": 1
 // There's nothing left to see..
 }

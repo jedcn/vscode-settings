@@ -3,6 +3,14 @@
     // CMD+Q
     {
         "key": "cmd+q", "command": "rewrap.rewrapComment"
+    },
+    // CMD+T
+    {
+        "key": "cmd+t", "command": "workbench.action.quickOpen"
+    },
+    // CMD+K then CMD+B
+    {
+        "key": "cmd+k cmd+b", "command": "workbench.action.toggleSidebarVisibility"
     }
 // The Great Beyond
 ]

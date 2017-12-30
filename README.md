@@ -4,6 +4,7 @@
 
 * [settings.json](./settings.json.md) ([src](./settings.json))
 * [keybindings.json](./keybindings.json.md) ([src](./keybindings.json))
+* [snippets/javascript.json](./snippets/javascript.json.md) ([src](./snippets/javascript.json))
 
 ## Background
 

@@ -1,0 +1,20 @@
+// snippets/javascript.json
+{
+  // Print Message to Console
+  "Print Message To Console": {
+    "prefix": "lm",
+	"body": [
+	  "console.log('${TM_FILENAME}: ${1:message}');"
+	],
+	"description": "Log a message to the console"
+  },
+  // Print Variable to Console
+  "Print Variable To Console": {
+    "prefix": "l",
+	"body": [
+	  "console.log('${TM_FILENAME}: ${1:variable}', ${1});"
+	],
+	"description": "Log a variable to the console"
+  }
+// This way to the great egress!
+}

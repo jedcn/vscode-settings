@@ -31,7 +31,7 @@ I don't always wear glasses even though I should..
 ## Whitespace
 
 You should always insert a newline at the end of a file, else it is
-(technically) not a text file. [POSIX Standard][[newline-posix-standard] and
+(technically) not a text file. [POSIX Standard][newline-posix-standard] and
 [Stackoverflow][newline-stackoverflow].
 
 [newline-posix-standard]: http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206

@@ -25,7 +25,23 @@ I am presently using "Quiet Light:"
 I don't always wear glasses even though I should..
 
 ```
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+```
+
+## Whitespace
+
+You should always insert a newline at the end of a file, else it is
+(technically) not a text file. [POSIX Standard][[newline-posix-standard] and
+[Stackoverflow][newline-stackoverflow].
+
+[newline-posix-standard]: http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206
+[newline-stackoverflow]: https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline#729795
+
+You should always trim trailing whitespace.
+
+```
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
 ```
 
 # There's nothing left to see..

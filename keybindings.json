@@ -11,6 +11,10 @@
     // CMD+K then CMD+B
     {
         "key": "cmd+k cmd+b", "command": "workbench.action.toggleSidebarVisibility"
+    },
+    // Rename Symbol
+    {
+        "key": "cmd+shift+r", "command": "editor.action.rename"
     }
 // The Great Beyond
 ]

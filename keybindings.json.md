@@ -41,9 +41,21 @@ This carry over from Sublime closes and opens the "side drawer"
 ```
     {
         "key": "cmd+k cmd+b", "command": "workbench.action.toggleSidebarVisibility"
-    }
+    },
 ```
 
+### Rename Symbol
+
+By default this is bound to `F2`, and I don't use function keys.
+
+The mnemonic here is "R" for rename, and this is what it looks like:
+https://cl.ly/2o2B1j3y2o2f
+
+```
+    {
+        "key": "cmd+shift+r", "command": "editor.action.rename"
+    }
+```
 # The Great Beyond
 
 ```

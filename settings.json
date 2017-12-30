@@ -5,6 +5,9 @@
   // Color Theme
   "workbench.colorTheme": "Quiet Light",
   // Window Zoom
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  // Whitespace
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
 // There's nothing left to see..
 }

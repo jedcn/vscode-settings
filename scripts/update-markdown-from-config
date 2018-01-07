@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cmd="./node_modules/there-and-back-again/bin/update-markdown-from-config"
+
+files=$(cat ./scripts/there-and-back-again-files)
+
+for file in $files
+do
+  $cmd --config-file $file --markdown-file $file.md
+done

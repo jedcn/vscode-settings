@@ -4,7 +4,9 @@
   "description": "Jed Northridge's Visual Code Settings",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./scripts/continuous-integration.sh",
+    "extract-config-from-markdown": "./node_modules/there-and-back-again/bin/extract-config-from-markdown --config-file ./keybindings.json --markdown-file ./keybindings.json.md && ./node_modules/there-and-back-again/bin/extract-config-from-markdown --config-file ./settings.json --markdown-file ./settings.json.md && ./node_modules/there-and-back-again/bin/extract-config-from-markdown --config-file ./snippets/javascript.json --markdown-file ./snippets/javascript.json.md",
+    "update-markdown-from-config": "./node_modules/there-and-back-again/bin/update-markdown-from-config --config-file ./keybindings.json --markdown-file ./keybindings.json.md && ./node_modules/there-and-back-again/bin/update-markdown-from-config --config-file ./settings.json --markdown-file ./settings.json.md && ./node_modules/there-and-back-again/bin/update-markdown-from-config --config-file ./snippets/javascript.json --markdown-file ./snippets/javascript.json.md"
   },
   "repository": {
     "type": "git",
@@ -23,10 +25,5 @@
   "homepage": "https://github.com/jedcn/vscode-settings#readme",
   "dependencies": {
     "there-and-back-again": "^0.2.0"
-  },
-  "scripts": {
-    "update-markdown-from-config": "echo update",
-    "extract-config-from-markdown": "./node_modules/there-and-back-again/bin/extract-config-from-markdown --config-file ./keybindings.json --markdown-file ./keybindings.json.md && ./node_modules/there-and-back-again/bin/extract-config-from-markdown --config-file ./settings.json --markdown-file ./settings.json.md && ./node_modules/there-and-back-again/bin/extract-config-from-markdown --config-file ./snippets/javascript.json --markdown-file ./snippets/javascript.json.md",
-    "update-markdown-from-config": "./node_modules/there-and-back-again/bin/update-markdown-from-config --config-file ./keybindings.json --markdown-file ./keybindings.json.md && ./node_modules/there-and-back-again/bin/update-markdown-from-config --config-file ./settings.json --markdown-file ./settings.json.md && ./node_modules/there-and-back-again/bin/update-markdown-from-config --config-file ./snippets/javascript.json --markdown-file ./snippets/javascript.json.md"
   }
 }

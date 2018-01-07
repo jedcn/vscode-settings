@@ -53,7 +53,7 @@ And so-- I explicitly set `editor.tabSize` to `2`. However, this didn't seem to
 take effect until I set `editor.detectIndentation` to `false`.
 
 ```
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "editor.detectIndentation": false
 ```
 

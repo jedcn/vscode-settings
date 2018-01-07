@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cmd="./node_modules/there-and-back-again/bin/extract-config-from-markdown"
+
+files="keybindings.json
+settings.json
+snippets/javascript.json"
+
+for file in $files
+do
+  $cmd --config-file $file --markdown-file $file.md
+done

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./scripts/continuous-integration.sh",
-    "extract-config-from-markdown": "./node_modules/there-and-back-again/bin/extract-config-from-markdown --config-file ./keybindings.json --markdown-file ./keybindings.json.md && ./node_modules/there-and-back-again/bin/extract-config-from-markdown --config-file ./settings.json --markdown-file ./settings.json.md && ./node_modules/there-and-back-again/bin/extract-config-from-markdown --config-file ./snippets/javascript.json --markdown-file ./snippets/javascript.json.md",
-    "update-markdown-from-config": "./node_modules/there-and-back-again/bin/update-markdown-from-config --config-file ./keybindings.json --markdown-file ./keybindings.json.md && ./node_modules/there-and-back-again/bin/update-markdown-from-config --config-file ./settings.json --markdown-file ./settings.json.md && ./node_modules/there-and-back-again/bin/update-markdown-from-config --config-file ./snippets/javascript.json --markdown-file ./snippets/javascript.json.md"
+    "extract-config-from-markdown": "./scripts/extract-config-from-markdown",
+    "update-markdown-from-config": "./scripts/update-markdown-from-config"
   },
   "repository": {
     "type": "git",

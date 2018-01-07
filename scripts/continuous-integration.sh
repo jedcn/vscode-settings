@@ -3,20 +3,18 @@
 npm run update-markdown-from-config
 
 if git diff-index HEAD --; then
-  echo "No changes"
+  echo "Markdown did not change when updating from config."
 else
-  echo " Changes"
+  echo "Markdown changed when updating from config."
+  echo "This should not happen. They should be in sync."
+  exit 1
 fi
 
-# if ! git diff-index --quiet HEAD --; then
-#   echo "Markdown changed when updating from config."
-#   echo "This should not happen. They should be in sync."
-#   exit 1
-# fi
-
-# npm run extract-config-from-markdown
-# if ! git diff-index --quiet HEAD --; then
-#   echo "Config changed when extracting from markdown."
-#   echo "This should not happen. They should be in sync."
-#   exit 1
-# fi
+npm run extract-config-from-markdown
+if git diff-index HEAD --; then
+  echo "Config did not change when extracting from config."
+else
+  echo "Config changed when extracting from markdown."
+  echo "This should not happen. They should be in sync."
+  exit 1
+fi

@@ -2,7 +2,7 @@
 
 npm run update-markdown-from-config
 
-if git diff-index HEAD --; then
+if git diff --no-ext-diff --quiet --exit-code; then
   echo "Markdown did not change when updating from config."
 else
   echo "Markdown changed when updating from config."
@@ -11,7 +11,7 @@ else
 fi
 
 npm run extract-config-from-markdown
-if git diff-index HEAD --; then
+if git diff --no-ext-diff --quiet --exit-code; then
   echo "Config did not change when extracting from config."
 else
   echo "Config changed when extracting from markdown."

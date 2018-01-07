@@ -8,6 +8,9 @@
   "window.zoomLevel": 1,
   // Whitespace
   "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  // Indents
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
 // There's nothing left to see..
 }

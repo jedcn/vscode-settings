@@ -41,7 +41,20 @@ You should always trim trailing whitespace.
 
 ```
   "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+```
+
+## Indents
+
+Visual Code is supposed to automatically detect indents, but it seemed to be
+having trouble in several JS and JSON files I had.
+
+And so-- I explicitly set `editor.tabSize` to `2`. However, this didn't seem to
+take effect until I set `editor.detectIndentation` to `false`.
+
+```
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
 ```
 
 # There's nothing left to see..

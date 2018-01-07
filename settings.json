@@ -10,7 +10,7 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   // Indents
-  "editor.tabSize": 2,
+  "editor.tabSize": 3,
   "editor.detectIndentation": false
 // There's nothing left to see..
 }

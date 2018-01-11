@@ -1,5 +1,9 @@
 # Visual Code Settings
 
+## Packages
+
+* [PACKAGES.md](./PACKAGES.md)
+
 ## Files
 
 * [settings.json](./settings.json.md) ([src](./settings.json))

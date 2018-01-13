@@ -6,7 +6,9 @@
   "scripts": {
     "test": "./scripts/continuous-integration.sh",
     "extract-config-from-markdown": "./scripts/extract-config-from-markdown",
-    "update-markdown-from-config": "./scripts/update-markdown-from-config"
+    "update-markdown-from-config": "./scripts/update-markdown-from-config",
+    "write-out-extensions": "./scripts/write-out-extensions",
+    "install-extensions": "./scripts/install-extensions"
   },
   "repository": {
     "type": "git",

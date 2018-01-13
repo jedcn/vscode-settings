@@ -1,5 +1,9 @@
 # Visual Code Settings
 
+## Extensions
+
+* [EXTENSIONS.md](./EXTENSIONS.md)
+
 ## Files
 
 * [settings.json](./settings.json.md) ([src](./settings.json))

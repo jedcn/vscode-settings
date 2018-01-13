@@ -1,5 +1,21 @@
 # vscode-settings docs
 
+## Extension Management
+
+I install extensions as normal via clicking on things in vscode.
+
+However, once I install a new extension, I do the following:
+
+1. I run `npm run write-out-extensions`. This writes out the names of each
+   installed extension to a text file. If no new extensions are installed this
+   is a no-op.
+2. I check in that text file.
+3. I add documentation about why I'm using that extension to the file
+   EXTENSIONS.md.
+4. When I move to a new machine where I'm using vscode but don't have the
+   extension installed, I run `npm run install-extensions`. If no new extensions
+   are installed this is a no-op.
+
 ## Setup / Installation
 
 I took the following steps to get going--

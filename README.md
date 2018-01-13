@@ -1,8 +1,8 @@
 # Visual Code Settings
 
-## Packages
+## Extensions
 
-* [PACKAGES.md](./PACKAGES.md)
+* [EXTENSIONS.md](./EXTENSIONS.md)
 
 ## Files
 
